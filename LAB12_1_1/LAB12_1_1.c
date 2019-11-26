@@ -16,7 +16,7 @@ int main(void)
 	fprintf(fp, "Wolrd\n"); 
  
 	state = fclose(fp);  
-	if (state != 0) { // ÀÌ Ã¼Å©´Â »ı·« °¡´É   
+	if (state != 0) { // ìì£¼ ìƒëµí•´ì„œ ì‘ì„± 
 		printf("file close error!\n");  
 		return 1;  
 	}
